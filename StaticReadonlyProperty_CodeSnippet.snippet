@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Readonly Property</Title>
+            <Author>Vincent</Author>
+            <Description>C# 정적 프로퍼티에서 get만 있는 프로퍼티 생성</Description>
+            <Shortcut>spropg</Shortcut>
+        </Header>
+        <Snippet>
+            <Code Language="CSharp">
+                <![CDATA[public static $Type$ $PropertyName$ { get; }]]>
+            </Code>
+            <Declarations>
+                <Literal>
+                    <ID>Type</ID>
+                    <ToolTip>C# Type</ToolTip>
+                    <Default>string</Default>
+                </Literal>
+                <Literal>
+                    <ID>PropertyName</ID>
+                    <ToolTip>C# Proeprty Name</ToolTip>
+                    <Default>Property</Default>
+                </Literal>
+            </Declarations>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>
