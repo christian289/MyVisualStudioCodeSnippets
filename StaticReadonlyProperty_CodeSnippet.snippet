@@ -9,9 +9,19 @@
         </Header>
         <Snippet>
             <Code Language="CSharp">
-                <![CDATA[public static $Type$ $PropertyName$ { get; }]]>
+                <![CDATA[
+                /// <summary>
+                /// $String$
+                /// </summary>
+                public static $Type$ $PropertyName$ { get; }
+                ]]>
             </Code>
             <Declarations>
+                <Literal>
+                    <ID>String</ID>
+                    <ToolTip>문자열 내용</ToolTip>
+                    <Default>문자열입력</Default>
+                </Literal>
                 <Literal>
                     <ID>Type</ID>
                     <ToolTip>C# Type</ToolTip>
